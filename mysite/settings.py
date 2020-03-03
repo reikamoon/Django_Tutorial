@@ -25,7 +25,7 @@ SECRET_KEY = 'l0(xb@xs=vh926cf6l78_3$3^&=wwl!d(u4bhesolhbtwjb1hl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'djangopollstutorial-aa.herokuapp.com']
 
 
 # Application definition
@@ -120,3 +120,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
