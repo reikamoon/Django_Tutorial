@@ -25,7 +25,7 @@ SECRET_KEY = 'l0(xb@xs=vh926cf6l78_3$3^&=wwl!d(u4bhesolhbtwjb1hl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'djangopollstutorial-aa.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'djangopollstutorial-aa.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
